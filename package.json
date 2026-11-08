@@ -1,0 +1,14 @@
+{
+  "name": "uuid-check-core",
+  "version": "0.1.0",
+  "description": "UUID validation with version/variant reporting and v4 generation. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/uuid.test.js",
+    "demo": "node bin/uuid.mjs --assert"
+  }
+}
